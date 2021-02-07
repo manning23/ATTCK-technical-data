@@ -1,0 +1,1861 @@
+技术编号： T1001
+技术名词： Data Obfuscation
+检测数据源： Network protocol analysis, Packet capture, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1003
+技术名词： OS Credential Dumping
+检测数据源： API monitoring, PowerShell logs, Process command-line parameters, Process monitoring
+战术类别： Credential Access
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1005
+技术名词： Data from Local System
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1006
+技术名词： Direct Volume Access
+检测数据源： API monitoring
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1007
+技术名词： System Service Discovery
+检测数据源： Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Windows
+
+
+技术编号： T1008
+技术名词： Fallback Channels
+检测数据源： Malware reverse engineering, Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1010
+技术名词： Application Window Discovery
+检测数据源： API monitoring, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Windows, macOS
+
+
+技术编号： T1011
+技术名词： Exfiltration Over Other Network Medium
+检测数据源： Process monitoring, User interface
+战术类别： Exfiltration
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1012
+技术名词： Query Registry
+检测数据源： Process command-line parameters, Process monitoring, Windows Registry
+战术类别： Discovery
+操作系统类别： Windows
+
+
+技术编号： T1014
+技术名词： Rootkit
+检测数据源： BIOS, MBR, System calls
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1016
+技术名词： System Network Configuration Discovery
+检测数据源： Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1018
+技术名词： Remote System Discovery
+检测数据源： Network protocol analysis, Process command-line parameters, Process monitoring, Process use of network
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1020
+技术名词： Automated Exfiltration
+检测数据源： File monitoring, Process monitoring, Process use of network
+战术类别： Exfiltration
+操作系统类别： Linux, Network, Windows, macOS
+
+
+技术编号： T1021
+技术名词： Remote Services
+检测数据源： API monitoring, Authentication logs, DLL monitoring, File monitoring, Netflow/Enclave netflow, Network protocol analysis, Packet capture, PowerShell logs, Process command-line parameters, Process monitoring, Process use of network, Windows Registry, Windows event logs
+战术类别： Lateral Movement
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1025
+技术名词： Data from Removable Media
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1027
+技术名词： Obfuscated Files or Information
+检测数据源： Binary file metadata, Email gateway, Environment variable, File monitoring, Malware reverse engineering, Network intrusion detection system, Network protocol analysis, Process command-line parameters, Process monitoring, Process use of network, SSL/TLS inspection, Windows event logs
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1029
+技术名词： Scheduled Transfer
+检测数据源： Netflow/Enclave netflow, Process monitoring, Process use of network
+战术类别： Exfiltration
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1030
+技术名词： Data Transfer Size Limits
+检测数据源： Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network
+战术类别： Exfiltration
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1033
+技术名词： System Owner/User Discovery
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1036
+技术名词： Masquerading
+检测数据源： Binary file metadata, File monitoring, Process command-line parameters, Process monitoring
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1037
+技术名词： Boot or Logon Initialization Scripts
+检测数据源： File monitoring, Process monitoring
+战术类别： Persistence, Privilege Escalation
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1039
+技术名词： Data from Network Shared Drive
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1040
+技术名词： Network Sniffing
+检测数据源： Host network interface, Netflow/Enclave netflow, Network device logs, Process monitoring
+战术类别： Credential Access, Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1041
+技术名词： Exfiltration Over C2 Channel
+检测数据源： Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network
+战术类别： Exfiltration
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1046
+技术名词： Network Service Scanning
+检测数据源： Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process command-line parameters, Process use of network
+战术类别： Discovery
+操作系统类别： AWS, Azure, GCP, Linux, Windows, macOS
+
+
+技术编号： T1047
+技术名词： Windows Management Instrumentation
+检测数据源： Authentication logs, Netflow/Enclave netflow, Process command-line parameters, Process monitoring
+战术类别： Execution
+操作系统类别： Windows
+
+
+技术编号： T1048
+技术名词： Exfiltration Over Alternative Protocol
+检测数据源： Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process monitoring, Process use of network
+战术类别： Exfiltration
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1049
+技术名词： System Network Connections Discovery
+检测数据源： Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： AWS, Azure, GCP, Linux, Windows, macOS
+
+
+技术编号： T1052
+技术名词： Exfiltration Over Physical Medium
+检测数据源： Data loss prevention, File monitoring, Process monitoring
+战术类别： Exfiltration
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1053
+技术名词： Scheduled Task/Job
+检测数据源： File monitoring, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Execution, Persistence, Privilege Escalation
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1055
+技术名词： Process Injection
+检测数据源： API monitoring, DLL monitoring, File monitoring, Named Pipes, Process monitoring
+战术类别： Defense Evasion, Privilege Escalation
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1056
+技术名词： Input Capture
+检测数据源： API monitoring, Binary file metadata, DLL monitoring, Kernel drivers, Loaded DLLs, PowerShell logs, Process command-line parameters, Process monitoring, User interface, Windows Registry, Windows event logs
+战术类别： Collection, Credential Access
+操作系统类别： Linux, Network, Windows, macOS
+
+
+技术编号： T1057
+技术名词： Process Discovery
+检测数据源： API monitoring, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1059
+技术名词： Command and Scripting Interpreter
+检测数据源： PowerShell logs, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Execution
+操作系统类别： Linux, Network, Windows, macOS
+
+
+技术编号： T1068
+技术名词： Exploitation for Privilege Escalation
+检测数据源： Application logs, Process monitoring, Windows Error Reporting
+战术类别： Privilege Escalation
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1069
+技术名词： Permission Groups Discovery
+检测数据源： API monitoring, AWS CloudTrail logs, Azure activity logs, GCP audit logs, Office 365 account logs, Process command-line parameters, Process monitoring, Stackdriver logs
+战术类别： Discovery
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1070
+技术名词： Indicator Removal on Host
+检测数据源： API monitoring, File monitoring, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1071
+技术名词： Application Layer Protocol
+检测数据源： DNS records, Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1072
+技术名词： Software Deployment Tools
+检测数据源： Authentication logs, Binary file metadata, File monitoring, Process monitoring, Process use of network, Third-party application logs, Windows Registry
+战术类别： Execution, Lateral Movement
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1074
+技术名词： Data Staged
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Collection
+操作系统类别： AWS, Azure, GCP, Linux, Windows, macOS
+
+
+技术编号： 
+技术名词： 
+检测数据源： 
+战术类别： 
+操作系统类别： 
+
+
+技术编号： T1078
+技术名词： Valid Accounts
+检测数据源： AWS CloudTrail logs, Authentication logs, Process monitoring, Stackdriver logs
+战术类别： Defense Evasion, Persistence, Privilege Escalation, Initial Access
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1080
+技术名词： Taint Shared Content
+检测数据源： File monitoring, Process monitoring
+战术类别： Lateral Movement
+操作系统类别： Windows
+
+
+技术编号： T1082
+技术名词： System Information Discovery
+检测数据源： AWS CloudTrail logs, Azure activity logs, Process command-line parameters, Process monitoring, Stackdriver logs
+战术类别： Discovery
+操作系统类别： AWS, Azure, GCP, Linux, Windows, macOS
+
+
+技术编号： T1083
+技术名词： File and Directory Discovery
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1087
+技术名词： Account Discovery
+检测数据源： API monitoring, Azure activity logs, Office 365 account logs, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1090
+技术名词： Proxy
+检测数据源： Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network, SSL/TLS inspection
+战术类别： Command And Control
+操作系统类别： Linux, Network, Windows, macOS
+
+
+技术编号： T1091
+技术名词： Replication Through Removable Media
+检测数据源： Data loss prevention, File monitoring
+战术类别： Lateral Movement, Initial Access
+操作系统类别： Windows
+
+
+技术编号： T1092
+技术名词： Communication Through Removable Media
+检测数据源： Data loss prevention, File monitoring
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1095
+技术名词： Non-Application Layer Protocol
+检测数据源： Host network interface, Netflow/Enclave netflow, Network intrusion detection system, Network protocol analysis, Packet capture, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Network, Windows, macOS
+
+
+技术编号： T1098
+技术名词： Account Manipulation
+检测数据源： Authentication logs, Windows event logs
+战术类别： Persistence
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, Windows, macOS
+
+
+技术编号： T1102
+技术名词： Web Service
+检测数据源： Host network interface, Netflow/Enclave netflow, Network protocol analysis, Packet capture, SSL/TLS inspection
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1104
+技术名词： Multi-Stage Channels
+检测数据源： Netflow/Enclave netflow, Network device logs, Network protocol analysis, Packet capture, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1105
+技术名词： Ingress Tool Transfer
+检测数据源： File monitoring, Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process command-line parameters, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1106
+技术名词： Native API
+检测数据源： API monitoring, Loaded DLLs, Process monitoring, System calls
+战术类别： Execution
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1110
+技术名词： Brute Force
+检测数据源： Authentication logs, Office 365 account logs
+战术类别： Credential Access
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1111
+技术名词： Two-Factor Authentication Interception
+检测数据源： API monitoring, Kernel drivers, Process monitoring
+战术类别： Credential Access
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1112
+技术名词： Modify Registry
+检测数据源： File monitoring, Process command-line parameters, Process monitoring, Windows Registry, Windows event logs
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1113
+技术名词： Screen Capture
+检测数据源： API monitoring, File monitoring, Process monitoring
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1114
+技术名词： Email Collection
+检测数据源： Authentication logs, Email gateway, File monitoring, Mail server, Office 365 trace logs, Process monitoring, Process use of network
+战术类别： Collection
+操作系统类别： Office 365, Windows
+
+
+技术编号： T1115
+技术名词： Clipboard Data
+检测数据源： API monitoring
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1119
+技术名词： Automated Collection
+检测数据源： Data loss prevention, File monitoring, Process command-line parameters
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1120
+技术名词： Peripheral Device Discovery
+检测数据源： API monitoring, PowerShell logs, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Windows, macOS
+
+
+技术编号： T1123
+技术名词： Audio Capture
+检测数据源： API monitoring, File monitoring, Process monitoring
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1124
+技术名词： System Time Discovery
+检测数据源： API monitoring, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Windows
+
+
+技术编号： T1125
+技术名词： Video Capture
+检测数据源： API monitoring, File monitoring, Process monitoring
+战术类别： Collection
+操作系统类别： Windows, macOS
+
+
+技术编号： T1127
+技术名词： Trusted Developer Utilities Proxy Execution
+检测数据源： File monitoring, Process monitoring
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1129
+技术名词： Shared Modules
+检测数据源： API monitoring, DLL monitoring, File monitoring, Process monitoring
+战术类别： Execution
+操作系统类别： Windows
+
+
+技术编号： T1132
+技术名词： Data Encoding
+检测数据源： Network protocol analysis, Packet capture, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1133
+技术名词： External Remote Services
+检测数据源： Authentication logs
+战术类别： Persistence, Initial Access
+操作系统类别： Linux, Windows
+
+
+技术编号： T1134
+技术名词： Access Token Manipulation
+检测数据源： API monitoring, Access tokens, Authentication logs, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Defense Evasion, Privilege Escalation
+操作系统类别： Windows
+
+
+技术编号： T1135
+技术名词： Network Share Discovery
+检测数据源： Network protocol analysis, Process command-line parameters, Process monitoring, Process use of network
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1136
+技术名词： Create Account
+检测数据源： AWS CloudTrail logs, Authentication logs, Azure activity logs, Office 365 account logs, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Persistence
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, Windows, macOS
+
+
+技术编号： T1137
+技术名词： Office Application Startup
+检测数据源： File monitoring, Mail server, Process command-line parameters, Process monitoring, Windows Registry
+战术类别： Persistence
+操作系统类别： Office 365, Windows
+
+
+技术编号： 
+技术名词： 
+检测数据源： 
+战术类别： 
+操作系统类别： 
+
+
+技术编号： T1140
+技术名词： Deobfuscate/Decode Files or Information
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1176
+技术名词： Browser Extensions
+检测数据源： Browser extensions, File monitoring, Process monitoring, Process use of network, Windows Registry
+战术类别： Persistence
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1185
+技术名词： Man in the Browser
+检测数据源： API monitoring, Authentication logs, Packet capture, Process monitoring
+战术类别： Collection
+操作系统类别： Windows
+
+
+技术编号： T1187
+技术名词： Forced Authentication
+检测数据源： File monitoring, Network device logs, Network protocol analysis, Process use of network
+战术类别： Credential Access
+操作系统类别： Windows
+
+
+技术编号： T1189
+技术名词： Drive-by Compromise
+检测数据源： Network device logs, Network intrusion detection system, Packet capture, Process use of network, SSL/TLS inspection, Web proxy
+战术类别： Initial Access
+操作系统类别： Linux, SaaS, Windows, macOS
+
+
+技术编号： T1190
+技术名词： Exploit Public-Facing Application
+检测数据源： AWS CloudTrail logs, Application logs, Azure activity logs, Packet capture, Stackdriver logs, Web application firewall logs, Web logs
+战术类别： Initial Access
+操作系统类别： AWS, Azure, GCP, Linux, Network, Windows, macOS
+
+
+技术编号： T1195
+技术名词： Supply Chain Compromise
+检测数据源： File monitoring, Web proxy
+战术类别： Initial Access
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1197
+技术名词： BITS Jobs
+检测数据源： Packet capture, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Defense Evasion, Persistence
+操作系统类别： Windows
+
+
+技术编号： T1199
+技术名词： Trusted Relationship
+检测数据源： AWS CloudTrail logs, Application logs, Authentication logs, Azure activity logs, Stackdriver logs, Third-party application logs
+战术类别： Initial Access
+操作系统类别： AWS, Azure, GCP, Linux, SaaS, Windows, macOS
+
+
+技术编号： T1200
+技术名词： Hardware Additions
+检测数据源： Asset management, Data loss prevention
+战术类别： Initial Access
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1201
+技术名词： Password Policy Discovery
+检测数据源： Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1202
+技术名词： Indirect Command Execution
+检测数据源： File monitoring, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1203
+技术名词： Exploitation for Client Execution
+检测数据源： Anti-virus, Process monitoring, System calls
+战术类别： Execution
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1204
+技术名词： User Execution
+检测数据源： Anti-virus, Process command-line parameters, Process monitoring
+战术类别： Execution
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1205
+技术名词： Traffic Signaling
+检测数据源： Netflow/Enclave netflow, Packet capture
+战术类别： Defense Evasion, Persistence, Command And Control
+操作系统类别： Linux, Network, Windows, macOS
+
+
+技术编号： T1207
+技术名词： Rogue Domain Controller
+检测数据源： API monitoring, Authentication logs, Network protocol analysis, Packet capture
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1210
+技术名词： Exploitation of Remote Services
+检测数据源： File monitoring, Process monitoring, Windows Error Reporting
+战术类别： Lateral Movement
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1211
+技术名词： Exploitation for Defense Evasion
+检测数据源： File monitoring, Process monitoring, Windows Error Reporting
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1212
+技术名词： Exploitation for Credential Access
+检测数据源： Authentication logs, Process monitoring, Windows Error Reporting
+战术类别： Credential Access
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1213
+技术名词： Data from Information Repositories
+检测数据源： Application logs, Authentication logs, Data loss prevention, OAuth audit logs, Third-party application logs
+战术类别： Collection
+操作系统类别： Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1216
+技术名词： Signed Script Proxy Execution
+检测数据源： Process command-line parameters, Process monitoring
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1217
+技术名词： Browser Bookmark Discovery
+检测数据源： API monitoring, File monitoring, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1218
+技术名词： Signed Binary Proxy Execution
+检测数据源： API monitoring, Binary file metadata, DLL monitoring, File monitoring, Loaded DLLs, Process command-line parameters, Process monitoring, Process use of network, Windows Registry
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1219
+技术名词： Remote Access Software
+检测数据源： Network intrusion detection system, Network protocol analysis, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1220
+技术名词： XSL Script Processing
+检测数据源： DLL monitoring, Process command-line parameters, Process monitoring, Process use of network
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1221
+技术名词： Template Injection
+检测数据源： Anti-virus, Email gateway, Network intrusion detection system, Web logs
+战术类别： Defense Evasion
+操作系统类别： Windows
+
+
+技术编号： T1222
+技术名词： File and Directory Permissions Modification
+检测数据源： File monitoring, Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1398
+技术名词： Modify OS Kernel or Boot Partition
+检测数据源： 
+战术类别： Defense Evasion, Persistence
+操作系统类别： Android, iOS
+
+
+技术编号： T1399
+技术名词： Modify Trusted Execution Environment
+检测数据源： 
+战术类别： Defense Evasion, Persistence
+操作系统类别： Android
+
+
+技术编号： T1400
+技术名词： Modify System Partition
+检测数据源： 
+战术类别： Defense Evasion, Persistence, Impact
+操作系统类别： Android, iOS
+
+
+技术编号： T1401
+技术名词： Abuse Device Administrator Access to Prevent Removal
+检测数据源： 
+战术类别： Persistence
+操作系统类别： Android
+
+
+技术编号： T1402
+技术名词： Broadcast Receivers
+检测数据源： 
+战术类别： Persistence, Execution
+操作系统类别： Android
+
+
+技术编号： T1403
+技术名词： Modify Cached Executable Code
+检测数据源： 
+战术类别： Persistence
+操作系统类别： Android
+
+
+技术编号： T1404
+技术名词： Exploit OS Vulnerability
+检测数据源： 
+战术类别： Privilege Escalation
+操作系统类别： Android, iOS
+
+
+技术编号： T1405
+技术名词： Exploit TEE Vulnerability
+检测数据源： 
+战术类别： Credential Access, Privilege Escalation
+操作系统类别： Android
+
+
+技术编号： T1406
+技术名词： Obfuscated Files or Information
+检测数据源： 
+战术类别： Defense Evasion
+操作系统类别： Android, iOS
+
+
+技术编号： T1407
+技术名词： Download New Code at Runtime
+检测数据源： 
+战术类别： Defense Evasion
+操作系统类别： Android, iOS
+
+
+技术编号： T1408
+技术名词： Disguise Root/Jailbreak Indicators
+检测数据源： 
+战术类别： Defense Evasion
+操作系统类别： Android, iOS
+
+
+技术编号： T1409
+技术名词： Access Stored Application Data
+检测数据源： 
+战术类别： Collection, Credential Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1410
+技术名词： Network Traffic Capture or Redirection
+检测数据源： 
+战术类别： Collection, Credential Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1411
+技术名词： Input Prompt
+检测数据源： 
+战术类别： Credential Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1412
+技术名词： Capture SMS Messages
+检测数据源： 
+战术类别： Collection, Credential Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1413
+技术名词： Access Sensitive Data in Device Logs
+检测数据源： 
+战术类别： Collection, Credential Access
+操作系统类别： Android
+
+
+技术编号： T1414
+技术名词： Capture Clipboard Data
+检测数据源： 
+战术类别： Collection, Credential Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1416
+技术名词： URI Hijacking
+检测数据源： 
+战术类别： Credential Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1417
+技术名词： Input Capture
+检测数据源： 
+战术类别： Collection, Credential Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1418
+技术名词： Application Discovery
+检测数据源： 
+战术类别： Defense Evasion, Discovery
+操作系统类别： Android, iOS
+
+
+技术编号： T1420
+技术名词： File and Directory Discovery
+检测数据源： 
+战术类别： Discovery
+操作系统类别： Android
+
+
+技术编号： T1421
+技术名词： System Network Connections Discovery
+检测数据源： 
+战术类别： Discovery
+操作系统类别： Android
+
+
+技术编号： T1422
+技术名词： System Network Configuration Discovery
+检测数据源： 
+战术类别： Discovery
+操作系统类别： Android, iOS
+
+
+技术编号： T1423
+技术名词： Network Service Scanning
+检测数据源： 
+战术类别： Discovery
+操作系统类别： Android, iOS
+
+
+技术编号： T1424
+技术名词： Process Discovery
+检测数据源： 
+战术类别： Discovery
+操作系统类别： Android
+
+
+技术编号： T1426
+技术名词： System Information Discovery
+检测数据源： 
+战术类别： Discovery
+操作系统类别： Android, iOS
+
+
+技术编号： T1427
+技术名词： Attack PC via USB Connection
+检测数据源： 
+战术类别： Lateral Movement
+操作系统类别： Android
+
+
+技术编号： T1428
+技术名词： Exploit Enterprise Resources
+检测数据源： 
+战术类别： Lateral Movement
+操作系统类别： Android, iOS
+
+
+技术编号： T1429
+技术名词： Capture Audio
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android, iOS
+
+
+技术编号： T1430
+技术名词： Location Tracking
+检测数据源： 
+战术类别： Collection, Discovery
+操作系统类别： Android, iOS
+
+
+技术编号： T1432
+技术名词： Access Contact List
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android, iOS
+
+
+技术编号： T1433
+技术名词： Access Call Log
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android, iOS
+
+
+技术编号： T1435
+技术名词： Access Calendar Entries
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android, iOS
+
+
+技术编号： T1436
+技术名词： Commonly Used Port
+检测数据源： 
+战术类别： Command And Control, Exfiltration
+操作系统类别： Android, iOS
+
+
+技术编号： T1437
+技术名词： Standard Application Layer Protocol
+检测数据源： 
+战术类别： Command And Control, Exfiltration
+操作系统类别： Android, iOS
+
+
+技术编号： T1438
+技术名词： Alternate Network Mediums
+检测数据源： 
+战术类别： Command And Control, Exfiltration
+操作系统类别： Android, iOS
+
+
+技术编号： T1439
+技术名词： Eavesdrop on Insecure Network Communication
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1444
+技术名词： Masquerade as Legitimate Application
+检测数据源： 
+战术类别： Initial Access, Defense Evasion
+操作系统类别： Android, iOS
+
+
+技术编号： T1446
+技术名词： Device Lockout
+检测数据源： 
+战术类别： Impact, Defense Evasion
+操作系统类别： Android, iOS
+
+
+技术编号： T1447
+技术名词： Delete Device Data
+检测数据源： 
+战术类别： Impact, Defense Evasion
+操作系统类别： Android
+
+
+技术编号： T1448
+技术名词： Carrier Billing Fraud
+检测数据源： 
+战术类别： Impact
+操作系统类别： Android
+
+
+技术编号： T1449
+技术名词： Exploit SS7 to Redirect Phone Calls/SMS
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1450
+技术名词： Exploit SS7 to Track Device Location
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1451
+技术名词： SIM Card Swap
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1452
+技术名词： Manipulate App Store Rankings or Ratings
+检测数据源： 
+战术类别： Impact
+操作系统类别： Android, iOS
+
+
+技术编号： T1456
+技术名词： Drive-by Compromise
+检测数据源： 
+战术类别： Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1458
+技术名词： Exploit via Charging Station or PC
+检测数据源： 
+战术类别： Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1461
+技术名词： Lockscreen Bypass
+检测数据源： 
+战术类别： Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1463
+技术名词： Manipulate Device Communication
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1464
+技术名词： Jamming or Denial of Service
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1465
+技术名词： Rogue Wi-Fi Access Points
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1466
+技术名词： Downgrade to Insecure Protocols
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1467
+技术名词： Rogue Cellular Base Station
+检测数据源： 
+战术类别： Network Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1468
+技术名词： Remotely Track Device Without Authorization
+检测数据源： 
+战术类别： Remote Service Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1469
+技术名词： Remotely Wipe Data Without Authorization
+检测数据源： 
+战术类别： Remote Service Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1470
+技术名词： Obtain Device Cloud Backups
+检测数据源： 
+战术类别： Remote Service Effects
+操作系统类别： Android, iOS
+
+
+技术编号： T1471
+技术名词： Data Encrypted for Impact
+检测数据源： 
+战术类别： Impact
+操作系统类别： Android
+
+
+技术编号： T1472
+技术名词： Generate Fraudulent Advertising Revenue
+检测数据源： 
+战术类别： Impact
+操作系统类别： Android, iOS
+
+
+技术编号： T1474
+技术名词： Supply Chain Compromise
+检测数据源： 
+战术类别： Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1475
+技术名词： Deliver Malicious App via Authorized App Store
+检测数据源： 
+战术类别： Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1476
+技术名词： Deliver Malicious App via Other Means
+检测数据源： 
+战术类别： Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1477
+技术名词： Exploit via Radio Interfaces
+检测数据源： 
+战术类别： Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1478
+技术名词： Install Insecure or Malicious Configuration
+检测数据源： 
+战术类别： Defense Evasion, Initial Access
+操作系统类别： Android, iOS
+
+
+技术编号： T1480
+技术名词： Execution Guardrails
+检测数据源： Process monitoring
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1481
+技术名词： Web Service
+检测数据源： 
+战术类别： Command And Control
+操作系统类别： Android, iOS
+
+
+技术编号： T1482
+技术名词： Domain Trust Discovery
+检测数据源： API monitoring, PowerShell logs, Process command-line parameters, Process monitoring
+战术类别： Discovery
+操作系统类别： Windows
+
+
+技术编号： T1484
+技术名词： Group Policy Modification
+检测数据源： Windows event logs
+战术类别： Defense Evasion, Privilege Escalation
+操作系统类别： Windows
+
+
+技术编号： T1485
+技术名词： Data Destruction
+检测数据源： File monitoring, Process command-line parameters, Process monitoring
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1486
+技术名词： Data Encrypted for Impact
+检测数据源： File monitoring, Kernel drivers, Process command-line parameters, Process monitoring
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1489
+技术名词： Service Stop
+检测数据源： API monitoring, File monitoring, Process command-line parameters, Process monitoring, Windows Registry
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1490
+技术名词： Inhibit System Recovery
+检测数据源： Process command-line parameters, Process monitoring, Services, Windows Registry, Windows event logs
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1491
+技术名词： Defacement
+检测数据源： Packet capture, Packet capture, Web application firewall logs, Web logs
+战术类别： Impact
+操作系统类别： AWS, Azure, GCP, Linux, Windows, macOS
+
+
+技术编号： T1495
+技术名词： Firmware Corruption
+检测数据源： BIOS, Component firmware
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1496
+技术名词： Resource Hijacking
+检测数据源： AWS CloudTrail logs, Azure activity logs, Network device logs, Network protocol analysis, Process monitoring, Process use of network, Stackdriver logs
+战术类别： Impact
+操作系统类别： AWS, Azure, GCP, Linux, Windows, macOS
+
+
+技术编号： T1497
+技术名词： Virtualization/Sandbox Evasion
+检测数据源： Process command-line parameters, Process monitoring
+战术类别： Defense Evasion, Discovery
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1498
+技术名词： Network Denial of Service
+检测数据源： Netflow/Enclave netflow, Network device logs, Network intrusion detection system, Network protocol analysis, Sensor health and status
+战术类别： Impact
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1499
+技术名词： Endpoint Denial of Service
+检测数据源： Netflow/Enclave netflow, Network device logs, Network intrusion detection system, Network protocol analysis, SSL/TLS inspection, Web application firewall logs, Web logs
+战术类别： Impact
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1505
+技术名词： Server Software Component
+检测数据源： Application logs, File monitoring, Netflow/Enclave netflow, Process monitoring
+战术类别： Persistence
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1507
+技术名词： Network Information Discovery
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android
+
+
+技术编号： T1508
+技术名词： Suppress Application Icon
+检测数据源： 
+战术类别： Defense Evasion
+操作系统类别： Android
+
+
+技术编号： T1509
+技术名词： Uncommonly Used Port
+检测数据源： 
+战术类别： Command And Control
+操作系统类别： Android, iOS
+
+
+技术编号： T1510
+技术名词： Clipboard Modification
+检测数据源： 
+战术类别： Impact
+操作系统类别： Android
+
+
+技术编号： T1512
+技术名词： Capture Camera
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android, iOS
+
+
+技术编号： T1513
+技术名词： Screen Capture
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android
+
+
+技术编号： T1516
+技术名词： Input Injection
+检测数据源： 
+战术类别： Defense Evasion, Impact
+操作系统类别： Android
+
+
+技术编号： T1517
+技术名词： Access Notifications
+检测数据源： 
+战术类别： Collection, Credential Access
+操作系统类别： Android
+
+
+技术编号： T1518
+技术名词： Software Discovery
+检测数据源： AWS CloudTrail logs, Azure activity logs, File monitoring, Process command-line parameters, Process monitoring, Stackdriver logs
+战术类别： Discovery
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1520
+技术名词： Domain Generation Algorithms
+检测数据源： 
+战术类别： Command And Control
+操作系统类别： Android, iOS
+
+
+技术编号： T1521
+技术名词： Standard Cryptographic Protocol
+检测数据源： 
+战术类别： Command And Control
+操作系统类别： Android, iOS
+
+
+技术编号： T1523
+技术名词： Evade Analysis Environment
+检测数据源： 
+战术类别： Defense Evasion, Discovery
+操作系统类别： Android, iOS
+
+
+技术编号： T1525
+技术名词： Implant Container Image
+检测数据源： Asset management, File monitoring
+战术类别： Persistence
+操作系统类别： AWS, Azure, GCP
+
+
+技术编号： T1526
+技术名词： Cloud Service Discovery
+检测数据源： AWS CloudTrail logs, Azure activity logs, Stackdriver logs
+战术类别： Discovery
+操作系统类别： AWS, Azure, Azure AD, GCP, Office 365, SaaS
+
+
+技术编号： T1528
+技术名词： Steal Application Access Token
+检测数据源： Azure activity logs, OAuth audit logs
+战术类别： Credential Access
+操作系统类别： Azure AD, Office 365, SaaS
+
+
+技术编号： T1529
+技术名词： System Shutdown/Reboot
+检测数据源： Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1530
+技术名词： Data from Cloud Storage Object
+检测数据源： AWS CloudTrail logs, Azure activity logs, Stackdriver logs
+战术类别： Collection
+操作系统类别： AWS, Azure, GCP
+
+
+技术编号： T1531
+技术名词： Account Access Removal
+检测数据源： Process command-line parameters, Process monitoring, Windows event logs
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1532
+技术名词： Data Encrypted
+检测数据源： 
+战术类别： Exfiltration
+操作系统类别： Android, iOS
+
+
+技术编号： T1533
+技术名词： Data from Local System
+检测数据源： 
+战术类别： Collection
+操作系统类别： Android, iOS
+
+
+技术编号： T1534
+技术名词： Internal Spearphishing
+检测数据源： Anti-virus, DNS records, File monitoring, Mail server, Office 365 trace logs, SSL/TLS inspection, Web proxy
+战术类别： Lateral Movement
+操作系统类别： Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1535
+技术名词： Unused/Unsupported Cloud Regions
+检测数据源： AWS CloudTrail logs, Azure activity logs, Stackdriver logs
+战术类别： Defense Evasion
+操作系统类别： AWS, Azure, GCP
+
+
+技术编号： 
+技术名词： 
+检测数据源： 
+战术类别： 
+操作系统类别： 
+
+
+技术编号： T1537
+技术名词： Transfer Data to Cloud Account
+检测数据源： AWS CloudTrail logs, Azure activity logs, Stackdriver logs
+战术类别： Exfiltration
+操作系统类别： AWS, Azure, GCP
+
+
+技术编号： T1538
+技术名词： Cloud Service Dashboard
+检测数据源： AWS CloudTrail logs, Azure activity logs, Office 365 audit logs, Stackdriver logs
+战术类别： Discovery
+操作系统类别： AWS, Azure, Azure AD, GCP, Office 365
+
+
+技术编号： T1539
+技术名词： Steal Web Session Cookie
+检测数据源： API monitoring, File monitoring
+战术类别： Credential Access
+操作系统类别： Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1540
+技术名词： Code Injection
+检测数据源： 
+战术类别： Persistence, Privilege Escalation, Defense Evasion
+操作系统类别： Android, iOS
+
+
+技术编号： T1541
+技术名词： Foreground Persistence
+检测数据源： 
+战术类别： Collection, Persistence
+操作系统类别： Android
+
+
+技术编号： T1542
+技术名词： Pre-OS Boot
+检测数据源： API monitoring, BIOS, Component firmware, Disk forensics, EFI, MBR, Process monitoring, VBR
+战术类别： Defense Evasion, Persistence
+操作系统类别： Linux, Network, Windows
+
+
+技术编号： T1543
+技术名词： Create or Modify System Process
+检测数据源： File monitoring, Process command-line parameters, Process monitoring, Windows Registry, Windows event logs
+战术类别： Persistence, Privilege Escalation
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1544
+技术名词： Remote File Copy
+检测数据源： 
+战术类别： Command And Control
+操作系统类别： Android, iOS
+
+
+技术编号： T1546
+技术名词： Event Triggered Execution
+检测数据源： API monitoring, Binary file metadata, DLL monitoring, File monitoring, Loaded DLLs, Process command-line parameters, Process monitoring, Process use of network, System calls, WMI Objects, Windows Registry, Windows event logs
+战术类别： Privilege Escalation, Persistence
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1547
+技术名词： Boot or Logon Autostart Execution
+检测数据源： 
+战术类别： Persistence, Privilege Escalation
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1548
+技术名词： Abuse Elevation Control Mechanism
+检测数据源： API monitoring, File monitoring, Process command-line parameters, Process monitoring, Windows Registry
+战术类别： Privilege Escalation, Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1550
+技术名词： Use Alternate Authentication Material
+检测数据源： Authentication logs, OAuth audit logs, Office 365 audit logs
+战术类别： Defense Evasion, Lateral Movement
+操作系统类别： Office 365, SaaS, Windows
+
+
+技术编号： T1552
+技术名词： Unsecured Credentials
+检测数据源： AWS CloudTrail logs, Authentication logs, Azure activity logs, File monitoring, Process command-line parameters, Process monitoring, Windows Registry, Windows event logs
+战术类别： Credential Access
+操作系统类别： AWS, Azure, Azure AD, GCP, Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1553
+技术名词： Subvert Trust Controls
+检测数据源： API monitoring, Application logs, Binary file metadata, DLL monitoring, File monitoring, Loaded DLLs, Process command-line parameters, Process monitoring, Windows Registry, Windows event logs
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1554
+技术名词： Compromise Client Software Binary
+检测数据源： Binary file metadata, Process monitoring
+战术类别： Persistence
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1555
+技术名词： Credentials from Password Stores
+检测数据源： API monitoring, File monitoring, PowerShell logs, Process monitoring, System calls
+战术类别： Credential Access
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1556
+技术名词： Modify Authentication Process
+检测数据源： API monitoring, Authentication logs, DLL monitoring, File monitoring, Process monitoring, Windows Registry
+战术类别： Credential Access, Defense Evasion
+操作系统类别： Linux, Network, Windows, macOS
+
+
+技术编号： T1557
+技术名词： Man-in-the-Middle
+检测数据源： File monitoring, Netflow/Enclave netflow, Packet capture
+战术类别： Credential Access, Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1558
+技术名词： Steal or Forge Kerberos Tickets
+检测数据源： Authentication logs, Windows event logs
+战术类别： Credential Access
+操作系统类别： Windows
+
+
+技术编号： T1559
+技术名词： Inter-Process Communication
+检测数据源： DLL monitoring, File monitoring, Process monitoring
+战术类别： Execution
+操作系统类别： Windows
+
+
+技术编号： T1560
+技术名词： Archive Collected Data
+检测数据源： Binary file metadata, File monitoring, Process command-line parameters, Process monitoring
+战术类别： Collection
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1561
+技术名词： Disk Wipe
+检测数据源： Kernel drivers, Process command-line parameters, Process monitoring
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1562
+技术名词： Impair Defenses
+检测数据源： API monitoring, AWS CloudTrail logs, Anti-virus, Authentication logs, Azure activity logs, Environment variable, File monitoring, GCP audit logs, Process command-line parameters, Process monitoring, Services, Windows Registry
+战术类别： Defense Evasion
+操作系统类别： AWS, Azure, GCP, Linux, Windows, macOS
+
+
+技术编号： T1563
+技术名词： Remote Service Session Hijacking
+检测数据源： Authentication logs, Netflow/Enclave netflow, Process command-line parameters, Process monitoring
+战术类别： Lateral Movement
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1564
+技术名词： Hide Artifacts
+检测数据源： API monitoring, Authentication logs, File monitoring, PowerShell logs, Process command-line parameters, Process monitoring
+战术类别： Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1565
+技术名词： Data Manipulation
+检测数据源： Application logs, File monitoring, Network protocol analysis, Packet capture
+战术类别： Impact
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1566
+技术名词： Phishing
+检测数据源： Anti-virus, Detonation chamber, Email gateway, File monitoring, Mail server, Network intrusion detection system, Packet capture, SSL/TLS inspection, Web proxy
+战术类别： Initial Access
+操作系统类别： Linux, Office 365, SaaS, Windows, macOS
+
+
+技术编号： T1567
+技术名词： Exfiltration Over Web Service
+检测数据源： Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process monitoring, Process use of network, SSL/TLS inspection
+战术类别： Exfiltration
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1568
+技术名词： Dynamic Resolution
+检测数据源： DNS records, SSL/TLS inspection, Web logs
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1569
+技术名词： System Services
+检测数据源： File monitoring, Process command-line parameters, Process monitoring, Windows Registry
+战术类别： Execution
+操作系统类别： Windows, macOS
+
+
+技术编号： T1570
+技术名词： Lateral Tool Transfer
+检测数据源： File monitoring, Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process command-line parameters, Process monitoring, Process use of network
+战术类别： Lateral Movement
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1571
+技术名词： Non-Standard Port
+检测数据源： Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1572
+技术名词： Protocol Tunneling
+检测数据源： Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process monitoring, Process use of network
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1573
+技术名词： Encrypted Channel
+检测数据源： Malware reverse engineering, Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network, SSL/TLS inspection
+战术类别： Command And Control
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1574
+技术名词： Hijack Execution Flow
+检测数据源： DLL monitoring, Environment variable, File monitoring, Loaded DLLs, Process command-line parameters, Process monitoring
+战术类别： Persistence, Privilege Escalation, Defense Evasion
+操作系统类别： Linux, Windows, macOS
+
+
+技术编号： T1575
+技术名词： Native Code
+检测数据源： 
+战术类别： Defense Evasion, Execution
+操作系统类别： Android
+
+
+技术编号： T1576
+技术名词： Uninstall Malicious Application
+检测数据源： 
+战术类别： Defense Evasion
+操作系统类别： Android
+
+
+技术编号： T1577
+技术名词： Compromise Application Executable
+检测数据源： 
+战术类别： Persistence
+操作系统类别： Android
+
+
+技术编号： T1578
+技术名词： Modify Cloud Compute Infrastructure
+检测数据源： AWS CloudTrail logs, Azure activity logs, GCP audit logs, Stackdriver logs
+战术类别： Defense Evasion
+操作系统类别： AWS, Azure, GCP
+
+
+技术编号： T1579
+技术名词： Keychain
+检测数据源： 
+战术类别： Credential Access
+操作系统类别： iOS
+
+
+技术编号： T1580
+技术名词： Cloud Infrastructure Discovery
+检测数据源： AWS CloudTrail logs, Azure activity logs, GCP audit logs, Stackdriver logs
+战术类别： Discovery
+操作系统类别： AWS, Azure, GCP
+
+
+技术编号： T1581
+技术名词： Geofencing
+检测数据源： 
+战术类别： Defense Evasion
+操作系统类别： Android, iOS
+
+
+技术编号： T1582
+技术名词： SMS Control
+检测数据源： 
+战术类别： Impact
+操作系统类别： Android
+
+
+技术编号： T1583
+技术名词： Acquire Infrastructure
+检测数据源： 
+战术类别： Resource Development
+操作系统类别： PRE
+
+
+技术编号： T1584
+技术名词： Compromise Infrastructure
+检测数据源： 
+战术类别： Resource Development
+操作系统类别： PRE
+
+
+技术编号： T1585
+技术名词： Establish Accounts
+检测数据源： Social media monitoring
+战术类别： Resource Development
+操作系统类别： PRE
+
+
+技术编号： T1586
+技术名词： Compromise Accounts
+检测数据源： Social media monitoring
+战术类别： Resource Development
+操作系统类别： PRE
+
+
+技术编号： T1587
+技术名词： Develop Capabilities
+检测数据源： 
+战术类别： Resource Development
+操作系统类别： PRE
+
+
+技术编号： T1588
+技术名词： Obtain Capabilities
+检测数据源： 
+战术类别： Resource Development
+操作系统类别： PRE
+
+
+技术编号： T1589
+技术名词： Gather Victim Identity Information
+检测数据源： 
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1590
+技术名词： Gather Victim Network Information
+检测数据源： 
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1591
+技术名词： Gather Victim Org Information
+检测数据源： 
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1592
+技术名词： Gather Victim Host Information
+检测数据源： 
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1593
+技术名词： Search Open Websites/Domains
+检测数据源： 
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1594
+技术名词： Search Victim-Owned Websites
+检测数据源： Web logs
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1595
+技术名词： Active Scanning
+检测数据源： Network device logs, Packet capture
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1596
+技术名词： Search Open Technical Databases
+检测数据源： 
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1597
+技术名词： Search Closed Sources
+检测数据源： 
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1598
+技术名词： Phishing for Information
+检测数据源： Email gateway, Mail server, Social media monitoring
+战术类别： Reconnaissance
+操作系统类别： PRE
+
+
+技术编号： T1599
+技术名词： Network Boundary Bridging
+检测数据源： Netflow/Enclave netflow, Packet capture
+战术类别： Defense Evasion
+操作系统类别： Network
+
+
+技术编号： T1600
+技术名词： Weaken Encryption
+检测数据源： File monitoring
+战术类别： Defense Evasion
+操作系统类别： Network
+
+
+技术编号： T1601
+技术名词： Modify System Image
+检测数据源： File monitoring, Network device configuration, Network device run-time memory
+战术类别： Defense Evasion
+操作系统类别： Network
+
+
+技术编号： T1602
+技术名词： Data from Configuration Repository
+检测数据源： Netflow/Enclave netflow, Network protocol analysis, Packet capture
+战术类别： Collection
+操作系统类别： Network
+

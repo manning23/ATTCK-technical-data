@@ -1,0 +1,61 @@
+检测数据源分析
+Process monitoring	111
+Process command-line parameters	67
+File monitoring	66
+API monitoring	35
+Process use of network	33
+Packet capture	33
+Netflow/Enclave netflow	28
+Network protocol analysis	24
+Authentication logs	22
+Windows event logs	22
+Azure activity logs	18
+Windows Registry	18
+AWS CloudTrail logs	17
+Stackdriver logs	14
+DLL monitoring	11
+SSL/TLS inspection	10
+Binary file metadata	9
+Network intrusion detection system	8
+PowerShell logs	8
+Network device logs	8
+Application logs	7
+Data loss prevention	6
+Web logs	6
+Loaded DLLs	6
+Anti-virus	6
+Mail server	5
+System calls	5
+Email gateway	5
+Windows Error Reporting	4
+Web proxy	4
+GCP audit logs	4
+Office 365 account logs	4
+Kernel drivers	4
+Social media monitoring	3
+Environment variable	3
+Web application firewall logs	3
+DNS records	3
+BIOS	3
+Malware reverse engineering	3
+Third-party application logs	3
+OAuth audit logs	3
+Host network interface	3
+Office 365 trace logs	2
+Office 365 audit logs	2
+MBR	2
+Services	2
+User interface	2
+Component firmware	2
+Asset management	2
+Sensor health and status	1
+Detonation chamber	1
+Named Pipes	1
+Browser extensions	1
+EFI	1
+WMI Objects	1
+Network device configuration	1
+Access tokens	1
+VBR	1
+Disk forensics	1
+Network device run-time memory	1
